@@ -1,0 +1,10 @@
+version: '3'
+services:
+  ssl_proxy:
+    build:
+      dockerfile: Dockerfile
+      context: ./
+    ports:
+      - 12345:80
+    volumes:
+      - ./client_cert:/client_cert
