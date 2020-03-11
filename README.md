@@ -1,5 +1,7 @@
 # Use a nginx proxy to do client cert authentication for you
 
+Simple nginx upstream proxy to allow small iot devices that do not support ssl to connect to an ssl host. Default also enables client certificate authentication for proper protection.
+
 ## PFX to pem
 To get the appropriate files you should do the following:
 
